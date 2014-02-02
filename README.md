@@ -1,4 +1,4 @@
 python
 ======
 
-python hacks that I do for simple cases
+Utilities which are useful for coding purposes.
