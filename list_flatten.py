@@ -1,6 +1,6 @@
 #import pdb
 
-list_sample = [[1], [1], [[2], [1,[3,4,[4]], 6]]]
+list_sample = [[1], [1], [[2], [1, [3, 4, [4]], 6]]]
 list_flat = []
 
 
@@ -11,10 +11,10 @@ def flatten(list):
     else:
         for x in list:
             if type(x) is type(list_sample):
-                print 'awesome'
+                #print 'awesome'
                 flatten(x)
             else:
-                print 'missed'
+                #print 'missed'
                 list_flat.append(x)
 
 
