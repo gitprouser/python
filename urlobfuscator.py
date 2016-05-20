@@ -46,6 +46,7 @@ def main():
             usage()
             sys.exit()
         elif o in ("-e", "--encrypt"):
+            print "I am encrypting" 
             encrypt_url = a
         elif o in ("-d", "--decrypt"):
             print "I am in decrypt" 
